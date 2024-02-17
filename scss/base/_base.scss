@@ -1,0 +1,35 @@
+.none{
+    display:none !important;
+}
+
+
+html,body{
+   font-family: 'Gilroy Medium';
+   color:#FFFFFF;
+   overflow-x: hidden;
+}
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding:0 15px;
+
+    &--small{
+        max-width: 1094px;
+    }
+
+   
+
+}
+
+
+
+.no-scroll{
+    overflow-y: hidden;
+}
+
+
+.title--2{
+    font-size: clamp(2rem, 1.394rem + 3.03vw, 2.625rem);
+    font-family: 'Gilroy Bold';
+}

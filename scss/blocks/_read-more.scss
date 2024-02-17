@@ -1,0 +1,27 @@
+.read-more{
+    
+    flex: 0 0 auto;
+    display:inline-flex;
+    gap:13px;
+    align-items: center;
+    font-family: var(--font-main);
+    font-size: 14px;
+    line-height: 1.85;
+    color: var(--accent);
+  
+
+    &::after{
+        content: url('./../img/selling/arrow-orange.svg');
+        height: 22px;
+
+    }
+
+    &.big{
+        font-size: 18px;
+        &::after{
+            height:32px;
+        }
+       
+    }
+
+}

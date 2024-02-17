@@ -1,0 +1,20 @@
+.sub-nav {
+    display:grid;
+    gap:16px;
+    background-color: var(--footer-bg);
+    padding:20px;
+    border-radius: 16px;
+    color:var(--footerTextColor);
+    
+    a{
+        color:var(--footerTextColor)
+    }
+
+}
+
+.sub-nav__link {
+    transition: opacity 0.2s ease-in;
+    &:hover{
+        opacity:0.5
+    }
+}

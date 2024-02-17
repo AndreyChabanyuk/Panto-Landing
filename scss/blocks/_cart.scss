@@ -1,0 +1,42 @@
+.cart {
+    justify-self: end;
+    align-self: center;
+    position:relative;
+    
+    @include footer(){
+        width:25px;
+        height: 25px;
+      
+    }
+
+
+
+}
+
+.cart__count {
+    position:absolute;
+    top:3px;
+    right:-6px;
+    display:inline-block;
+    height: 25px;
+    padding:0 6px;
+    background-color: var(--accent);
+    border-radius: 40px;
+    line-height: 25px;
+    font-family: var(--font-cards);
+    font-weight: 700;
+
+
+    @include footer(){
+        width:18px;
+        height: 15px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+
+}
+
+
+
+

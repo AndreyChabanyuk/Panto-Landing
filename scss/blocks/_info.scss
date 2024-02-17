@@ -1,0 +1,32 @@
+.main {
+    color:var(--text-color);
+    
+}
+
+
+.info {
+    padding:clamp(50px, 1.875rem + 6.25vw, 120px) 0;
+
+}
+
+
+.info__row {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+
+    @include firstPoint(){
+       grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+       gap:clamp(2.188rem, 2.029rem + 0.79vw, 2.5rem);
+        
+    }
+
+}
+
+
+.info__title{
+    max-width: 260px;
+    
+}
+
+

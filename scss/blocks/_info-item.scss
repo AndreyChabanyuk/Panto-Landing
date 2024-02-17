@@ -1,0 +1,22 @@
+.info__item{
+   display:flex;
+   flex-direction: column;
+    
+}
+
+.info__item-title{
+    font-size: 24px;
+    font-family: 'Gilroy Bold';
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+.info__text {
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 1.85;
+    flex: 1 0 auto;
+}
+
+
+
